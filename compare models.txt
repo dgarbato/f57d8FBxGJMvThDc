@@ -1,0 +1,62 @@
+logistic regression
+-------------------
+train roc_auc_score:  0.9279341753535526
+ 
+test_roc_auc_score:  0.928999335148657
+ 
+Training KS statistic
+KstestResult(statistic=0.7438235497524648, pvalue=0.0)
+ 
+Test KS statistic
+KstestResult(statistic=0.7383489997093924, pvalue=0.0)
+
+from test confusion matrix
+--------------------------
+recall =  0.8768699654775605
+specificity =  0.8470038630850777
+accuracy =  0.8491666666666666
+precision =  0.30912778904665317
+F1 score =  0.4571085782843431
+
+-------------------
+gradient boosting
+-------------------
+train roc_auc_score:  0.9444772740452207
+ 
+test roc_auc_score:  0.9383637523585371
+
+Training KS statistic
+KstestResult(statistic=0.7791045807483545, pvalue=0.0)
+ 
+Test KS statistic
+KstestResult(statistic=0.7567740970360408, pvalue=0.0)
+
+from test confusion matrix
+--------------------------
+recall =  0.2991944764096663
+specificity =  0.9844578205013027
+accuracy =  0.9348333333333333
+precision =  0.6004618937644342
+F1 score =  0.39938556067588327
+
+--------------------------
+random forest
+--------------------------
+train roc_auc_score:  0.9769966614223935
+test roc_auc_score:  0.9385597134409039
+ 
+Training KS statistic
+KstestResult(statistic=0.8861242589383218, pvalue=0.0)
+ 
+Test KS statistic
+KstestResult(statistic=0.7691840006848041, pvalue=0.0)
+
+from confusion_matrix_test
+-------------------------- 
+recall =  0.8112773302646721
+specificity =  0.899469948791663
+accuracy =  0.8930833333333333
+precision =  0.38651315789473684
+ 
+F1_score =  0.5235796509468994
+ 
